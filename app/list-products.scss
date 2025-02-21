@@ -19,9 +19,15 @@
     border: 1px solid #ddd;
     border-radius: 0.5rem;
     overflow: hidden;
-    background: #fff;
+    background: #E2E2E2;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
+    transition: all 0.3s ease-in-out; // Smooth
+
+    &:hover {
+        transform: scale(1.05); // Scale effect on hover
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
     img {
         width: 100%;
         height: 200px;
@@ -45,6 +51,13 @@
         .btn {
             margin-top: 1rem;
             width: 100%;
+            background-color: #d27791; 
+            color: white ; 
+            border: none;
+
+            &:hover {
+                background-color: darken(#BE657E, 5%); // Darken on hover
+            }
         }
     }
 }
