@@ -6,9 +6,8 @@
     "start": "nodemon -x 'node api.js || (sleep 10; touch api.js)'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "TuAnh",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "nodemon": "^3.1.9"
   },
@@ -16,5 +15,14 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuanh00/midterm-tt4-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tuanh00/midterm-tt4-project/issues"
+  },
+  "homepage": "https://github.com/tuanh00/midterm-tt4-project#readme",
+  "description": ""
 }
